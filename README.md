@@ -118,7 +118,7 @@
     if (username) {
       document.getElementById("userDisplay").textContent = `(${username})`;
     } else {
-      window.location.href = "register.html";
+      window.location.href = "beranda.html";
     }
 
     document.getElementById("postForm").addEventListener("submit", function(e) {
